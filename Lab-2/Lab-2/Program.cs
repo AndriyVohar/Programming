@@ -110,7 +110,6 @@ namespace Lab_2
 
             };
 
-            Console.WriteLine(DateTime.Now.Year+1);
             TaskA(deliveryList, 1);
             TaskB(products, deliveryList, "Kronenbourg");
             TaskC(products, deliveryList);
