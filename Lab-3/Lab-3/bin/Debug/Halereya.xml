@@ -1,0 +1,51 @@
+<paintings>
+    <painting>
+        <code>1</code>
+        <artist_lastname>Van Gogh</artist_lastname>
+        <painting_title>The Starry Night</painting_title>
+        <price>15000000</price>
+        <status>1</status>
+    </painting>
+    <painting>
+        <code>2</code>
+        <artist_lastname>Picasso</artist_lastname>
+        <painting_title>Guernica</painting_title>
+        <price>20000000</price>
+        <status>2</status>
+    </painting>
+    <painting>
+        <code>3</code>
+        <artist_lastname>Da Vinci</artist_lastname>
+        <painting_title>Mona Lisa</painting_title>
+        <price>50000000</price>
+        <status>3</status>
+    </painting>
+    <painting>
+        <code>4</code>
+        <artist_lastname>Klimt</artist_lastname>
+        <painting_title>The Kiss</painting_title>
+        <price>18000000</price>
+        <status>1</status>
+    </painting>
+    <painting>
+        <code>5</code>
+        <artist_lastname>Hopper</artist_lastname>
+        <painting_title>Nighthawks</painting_title>
+        <price>22000000</price>
+        <status>2</status>
+    </painting>
+    <painting>
+        <code>6</code>
+        <artist_lastname>Monet</artist_lastname>
+        <painting_title>Water Lilies</painting_title>
+        <price>25000000</price>
+        <status>3</status>
+    </painting>
+    <painting>
+        <code>7</code>
+        <artist_lastname>Rembrandt</artist_lastname>
+        <painting_title>The Night Watch</painting_title>
+        <price>30000000</price>
+        <status>1</status>
+    </painting>
+</paintings>

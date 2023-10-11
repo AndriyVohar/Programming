@@ -1,0 +1,8 @@
+D:\Програмування (C#)\Lab-3\Lab-3\bin\Debug\Lab-3.exe.config
+D:\Програмування (C#)\Lab-3\Lab-3\bin\Debug\Lab-3.exe
+D:\Програмування (C#)\Lab-3\Lab-3\bin\Debug\Lab-3.pdb
+D:\Програмування (C#)\Lab-3\Lab-3\obj\Debug\Lab-3.csproj.AssemblyReference.cache
+D:\Програмування (C#)\Lab-3\Lab-3\obj\Debug\Lab-3.csproj.SuggestedBindingRedirects.cache
+D:\Програмування (C#)\Lab-3\Lab-3\obj\Debug\Lab-3.csproj.CoreCompileInputs.cache
+D:\Програмування (C#)\Lab-3\Lab-3\obj\Debug\Lab-3.exe
+D:\Програмування (C#)\Lab-3\Lab-3\obj\Debug\Lab-3.pdb
