@@ -132,7 +132,7 @@ namespace Lab_2
         public static void TaskB(List<Product> products, List<Delivery> deliveries, string productName)
         {
             var suppliers = deliveries
-                .Where(d => products.Any(p => p.Code == d.ProductCode && p.Name == productName))
+                .Where(d => products.Any(p =>p.Name == productName))
                 .GroupBy(d => d.Supplier)
                 .Select(group => new
                 {
