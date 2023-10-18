@@ -1,0 +1,8 @@
+D:\Програмування (C#)\MKR\MKR\bin\Debug\MKR.exe.config
+D:\Програмування (C#)\MKR\MKR\bin\Debug\MKR.exe
+D:\Програмування (C#)\MKR\MKR\bin\Debug\MKR.pdb
+D:\Програмування (C#)\MKR\MKR\obj\Debug\MKR.csproj.AssemblyReference.cache
+D:\Програмування (C#)\MKR\MKR\obj\Debug\MKR.csproj.SuggestedBindingRedirects.cache
+D:\Програмування (C#)\MKR\MKR\obj\Debug\MKR.csproj.CoreCompileInputs.cache
+D:\Програмування (C#)\MKR\MKR\obj\Debug\MKR.exe
+D:\Програмування (C#)\MKR\MKR\obj\Debug\MKR.pdb

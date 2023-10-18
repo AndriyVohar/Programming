@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patients>
+  <Patient>
+    <LastName>Vogar</LastName>
+    <Diagnosis>Fracture</Diagnosis>
+    <DoctorLastName>Vogar</DoctorLastName>
+    <AppointmentDate>2023-09-23</AppointmentDate>
+  </Patient>
+  <Patient>
+    <LastName>Novikova</LastName>
+    <Diagnosis>Tooth cavity</Diagnosis>
+    <DoctorLastName>Pivkach</DoctorLastName>
+    <AppointmentDate>2023-08-13</AppointmentDate>
+  </Patient>
+  <Patient>
+    <LastName>Kirilenko</LastName>
+    <Diagnosis>Thyroid inflammation</Diagnosis>
+    <DoctorLastName>Dzyobak</DoctorLastName>
+    <AppointmentDate>2023-09-26</AppointmentDate>
+  </Patient>
+  <Patient>
+    <LastName>Bobik</LastName>
+    <Diagnosis>Hormonal imbalance</Diagnosis>
+    <DoctorLastName>Dzyobak</DoctorLastName>
+    <AppointmentDate>2023-09-26</AppointmentDate>
+  </Patient>
+</Patients>
