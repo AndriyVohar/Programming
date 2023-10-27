@@ -10,10 +10,19 @@ namespace Lab_4
 {
     class Painting
     {
+        [JsonProperty("code")]
         public string Code { get; set; }
+
+        [JsonProperty("artist_lastname")]
         public string ArtistLastName { get; set; }
+
+        [JsonProperty("painting_title")]
         public string PaintingTitle { get; set; }
+
+        [JsonProperty("price")]
         public double Price { get; set; }
+
+        [JsonProperty("status")]
         public int Status { get; set; }
     }
 
