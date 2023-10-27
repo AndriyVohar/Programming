@@ -1,0 +1,53 @@
+{
+    "paintings": [
+        {
+            "code": "1",
+            "artist_lastname": "Van Gogh",
+            "painting_title": "The Starry Night",
+            "price": 15000000,
+            "status": 1
+        },
+        {
+            "code": "2",
+            "artist_lastname": "Picasso",
+            "painting_title": "Guernica",
+            "price": 20000000,
+            "status": 2
+        },
+        {
+            "code": "3",
+            "artist_lastname": "Da Vinci",
+            "painting_title": "Mona Lisa",
+            "price": 50000000,
+            "status": 3
+        },
+        {
+            "code": "4",
+            "artist_lastname": "Klimt",
+            "painting_title": "The Kiss",
+            "price": 18000000,
+            "status": 1
+        },
+        {
+            "code": "5",
+            "artist_lastname": "Hopper",
+            "painting_title": "Nighthawks",
+            "price": 22000000,
+            "status": 2
+        },
+        {
+            "code": "6",
+            "artist_lastname": "Monet",
+            "painting_title": "Water Lilies",
+            "price": 25000000,
+            "status": 3
+        },
+        {
+            "code": "7",
+            "artist_lastname": "Rembrandt",
+            "painting_title": "The Night Watch",
+            "price": 30000000,
+            "status": 1
+        }
+    ]
+}

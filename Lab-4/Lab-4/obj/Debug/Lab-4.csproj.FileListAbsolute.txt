@@ -1,0 +1,11 @@
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\bin\Debug\Lab-4.exe.config
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\bin\Debug\Lab-4.exe
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\bin\Debug\Lab-4.pdb
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\obj\Debug\Lab-4.csproj.AssemblyReference.cache
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\obj\Debug\Lab-4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\obj\Debug\Lab-4.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\obj\Debug\Lab-4.csproj.CopyComplete
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\obj\Debug\Lab-4.exe
+C:\Users\Lenovo x270\Documents\SDHC\Програмування (C#)\Lab-4\Lab-4\obj\Debug\Lab-4.pdb
