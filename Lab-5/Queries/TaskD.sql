@@ -1,0 +1,1 @@
+﻿select distinct title, year, author from library;
