@@ -1,0 +1,1 @@
+﻿select min(Id), min(author), min(title), min(year) from library;
