@@ -1,49 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Lab7.Models;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace Lab7.Models
 {
     internal class BookRepository : IRepository<Book>
     {
-        private readonly BookDbContext _context;
+        protected BookDbcontext _context;
 
-        public BookRepository(BookDbContext context)
+        public BookRepository(BookDbcontext context)
         {
             _context = context;
         }
 
         public List<Book> GetAll()
         {
-            return _context.Books.ToList();
+            return _context.Library.ToList();
         }
 
         public List<Book> GetByTitle(string title)
         {
-            return _context.Books.Where(b => b.Title.StartsWith(title)).ToList();
+            return _context.Library.Where(b => b.Title.StartsWith(title)).ToList();
         }
 
         public List<Book> GetByTitleAndYearBetween(string title, int[] year)
         {
-            return _context.Books
+            return _context.Library
                 .Where(b => b.Title.StartsWith(title) && b.Year >= year[0] && b.Year <= year[1])
                 .ToList();
         }
 
         public List<Book> GetDifferentValues()
         {
-            return _context.Books.Distinct().ToList();
+            return _context.Library.Distinct().ToList();
         }
 
         public List<Book> GetMinValues()
         {
-            return _context.Books.OrderBy(b => b.Id).Take(1).ToList();
+            return _context.Library.OrderBy(b => b.Id).Take(1).ToList();
         }
 
         public List<Book> GroupByTitle(string title)
         {
-            return _context.Books
+            return _context.Library
                 .Where(b => b.Title.StartsWith(title))
                 .GroupBy(b => b.Title)
                 .Select(group => new Book
@@ -56,7 +63,7 @@ namespace Lab7.Models
 
         public List<Book> GetOrderedByField(string field, bool ascending = true)
         {
-            var query = _context.Books.OrderBy(b => EF.Property<object>(b, field));
+            var query = _context.Library.OrderBy(b => EF.Property<object>(b, field));
             if (!ascending)
             {
                 query = query.OrderByDescending(b => EF.Property<object>(b, field));
@@ -66,7 +73,7 @@ namespace Lab7.Models
 
         public bool Update(Book book)
         {
-            var existingBook = _context.Books.Find(book.Id);
+            var existingBook = _context.Library.Find(book.Id);
             if (existingBook != null)
             {
                 existingBook.Title = book.Title;

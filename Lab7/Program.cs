@@ -1,10 +1,10 @@
 ﻿using Lab7.Models;
-
+using System.Data.SqlClient;
 internal class Program
 {
     static void Main(string[] args)
     {
-        using (var context = new BookDbContext())
+        using (var context = new BookDbcontext())
         {
             var rep = new BookRepository(context);
 
@@ -91,12 +91,13 @@ internal class Program
         Console.Write("Введіть Id: ");
         if (int.TryParse(Console.ReadLine(), out int id))
         {
-            Console.Write("Введіть title: ");
+            Console.Write("Введіть назву");
             string title = Console.ReadLine();
             Console.Write("Введіть автора: ");
             string author = Console.ReadLine();
-            int[] year = GetYearIntervalFromUser();
-            Book book = new Book() { Id = id, Title = title, Author = author, Year = year[0] };  // Update only the first year for simplicity
+            Console.Write("Введіть рік: ");
+            int year = int.Parse(Console.ReadLine());
+            Book book = new Book() { Id = id, Title = title, Author = author, Year = year };  // Update only the first year for simplicity
             rep.Update(book);
         }
         else
